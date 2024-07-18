@@ -4,6 +4,12 @@ import Link from 'next/link';
 import { Sheet, SheetTrigger, SheetContent } from '@/components/ui/sheet';
 import { usePathname } from 'next/navigation';
 import { CiMenuFries } from 'react-icons/ci';
+import {
+  DialogContent,
+  DialogDescription,
+  DialogTitle,
+} from '@radix-ui/react-dialog';
+import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
 
 const NameFirst = 'Luke';
 
@@ -38,6 +44,11 @@ const MobileNav = () => {
         <CiMenuFries className="text-[32px] text-accent" />
       </SheetTrigger>
       <SheetContent className="flex flex-col">
+        {/* to remove dialog error requires title and description */}
+        <DialogContent>
+          <DialogTitle></DialogTitle>
+          <DialogDescription></DialogDescription>
+        </DialogContent>
         {/* logo */}
         <div className="mb-40 mt-32 text-center text-2xl">
           <Link href="/">

@@ -21,10 +21,10 @@ const Photo = () => {
             opacity: 1,
             transition: { duration: 0.4, delay: 2.4, ease: 'easeInOut' },
           }}
-          className="absolute h-[278px] w-[278px] mix-blend-lighten xl:h-[478px] xl:w-[478px]"
+          className="absolute h-[298px] w-[298px] mix-blend-lighten xl:h-[498px] xl:w-[498px]"
         >
           <Image
-            alt=""
+            alt="profile-photo"
             className="object-contain"
             fill
             priority
