@@ -35,7 +35,7 @@ const services = [
   },
 ];
 
-const page = () => {
+const Services = () => {
   return (
     <section className="flex min-h-[80vh] flex-col justify-center py-12 xl:py-0">
       <div className="container mx-auto">
@@ -86,4 +86,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Services;

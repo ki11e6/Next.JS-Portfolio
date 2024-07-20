@@ -168,7 +168,7 @@ const skills = {
   ],
 };
 
-const page = () => {
+const Resume = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -318,4 +318,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Resume;
