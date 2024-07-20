@@ -71,7 +71,7 @@ const Work = () => {
   };
 
   return (
-    <motion.div
+    <motion.section
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
@@ -176,7 +176,7 @@ const Work = () => {
           </div>
         </div>
       </div>
-    </motion.div>
+    </motion.section>
   );
 };
 
